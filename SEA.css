@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#title{
+	position: absolute;
+	right: 100px;
+	top: 50px;
+	font-family: monospace;
+	font-size: 14px;
+	color: white;
+	line-height: 2.5;
+	z-index: 99999;
+	text-align: right;	
+}
+#zoom_map{
+  position: relative;     
+}
+svg{
+  background-color: rgb(0,19,32);
+}
+a{
+	color: white; 
+}
+a:hover{
+	color: rgb(36,187,82);
+}
